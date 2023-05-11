@@ -1,4 +1,17 @@
 # CodeTop_practise
 CodeTop题库的每日练习，从频度高到低。
 - [ ] [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
-- [ ] [反转链表](https://leetcode.cn/problems/reverse-linked-list/)
+- [x] [反转链表](https://leetcode.cn/problems/reverse-linked-list/)
+- [ ] [LRU缓存机制]()
+- [ ] [数组中的第K个最大元素]()
+- [ ] [K个一组翻转链表]()
+- [ ] [三数之和]()
+- [ ] [最大子序和]()
+- [ ] [补充题4.手撕快速排序]()
+- [ ] [合并两个有序链表]()
+- [ ] [两数之和]()
+- [ ] [二叉树的层序遍历]()
+- [ ] [最长回文子串]()
+- [ ] [搜索旋转排序数组]()
+- [ ] [有效的括号]()
+- [ ] [买卖股票的最佳时机]()
