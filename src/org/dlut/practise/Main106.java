@@ -22,4 +22,25 @@ class Solution {
         return newHead;
     }
 
+    /**
+     * 2. 采用三指针反转链表
+     * @param head
+     * @return
+     */
+    public ListNode reverseList1(ListNode head) {
+        ListNode pre, curr, nxt;
+        pre = null; curr = head; nxt = head;
+        while (curr != null) {
+            // 移动next指针
+            nxt = curr.next;
+            // 确定当前节点的下一个节点
+            curr.next = pre;
+            // 更新后移动pre
+            pre = curr;
+            // 再移动curr
+            curr = nxt;
+        }
+        return pre;
+    }
+
 }
